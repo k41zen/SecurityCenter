@@ -15,16 +15,16 @@ from tenable.sc import TenableSC
 class SC2Webhook():
 
     def __init__(self):
-        self.ip = '10.4.24.48'
-        self.login = 'thehive'
-        self.password = 'rUlm81nJLVvx2GpORhJ9'
-        self.policyID = '1000014'
-        self.credentialID = '1'
-        self.repository = '248'
-        self.reportID = '17'
+        self.ip = '<IP>'
+        self.login = '<username>'
+        self.password = '<password>'
+        self.policyID = 'policy ID>'
+        self.credentialID = '<credential ID>'
+        self.repository = '<repo ID>'
+        self.reportID = '<report ID>'
         self.email_on_launch = 'false'
         self.email_on_complete = 'false'
-        self.URL = 'https://chat.googleapis.com/v1/spaces/AAAAQJR7NPs/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=js0PHAzsyfY1UFUeTF8YKQ7pXLUCbFmSHEFEy_sdKPg%3D'
+        self.URL = '<webhook URL>'
 
     def run(self):
         if len (sys.argv) != 3:
