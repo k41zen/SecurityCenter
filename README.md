@@ -48,8 +48,8 @@ Once this information has been provided you're ready to run the script. The scri
 
 Here's an example:
 
-	# python3 sc-scan-webhook  4454      "Windows Server in both Primary data center and secondary data centers"
-	           [script name]   [ID]                                  [target text]
+	# python3 sc-scan-webhook  4454      "Windows Servers in both data centers"
+	           [script name]   [ID]                   [target text]
 
 Here's a screenshot of an example webhook message sent at the start of the scan to a Google Chat room:
 
