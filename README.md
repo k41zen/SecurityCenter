@@ -57,7 +57,7 @@ Once this information has been provided you're ready to run the script. The scri
 
 Here's an example:
 
-	# python3 sc-scan-webhook  4454      "Windows Servers in both data centers"
+	# python3 sc-scan-webhook  1889      "Linux Servers (Group C) in both the PDC and SDC"
 	           [script name]   [ID]                   [target text]
 
 Here's a screenshot of an example webhook message sent at the start of the scan to a Google Chat room:
