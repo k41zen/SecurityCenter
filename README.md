@@ -2,6 +2,9 @@
 
 Here are a couple of scripts I've quickly knocked up (so to speak) to help me with automating SecurityCenter scans whilst at the same time giving the right useful information to the right people.
 
+## Tested with
+This has been tested using pyTenable 0.3.27 and Tenable's SecurityCenter 5.11.x.
+
 ## Deployment
 Both scripts utilise the TenableSC API wrapper to run as shown in the code snippet below:
 
