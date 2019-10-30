@@ -31,7 +31,7 @@ Before you can begin to run this script there's some information you need to pro
         self.URL = '<webhook URL>'
 ```
 
-The field ```pythonself.ip = '<IP>'``` is the IP address of your SecurityCenter instance. The *self.login* and *self.password* field are for the user which authenticates to SecurityCenter to run the scans. I've created a sca-automation user for auditing purposes but feel free to choose which ever user you wish.
+The field ```python self.ip = '<IP>'``` is the IP address of your SecurityCenter instance. The *self.login* and *self.password* field are for the user which authenticates to SecurityCenter to run the scans. I've created a sca-automation user for auditing purposes but feel free to choose which ever user you wish.
 
 The field *self.policyI*D is the ID for the policy which your scan is already configured to use in SecurityCenter. Find the scan you wish to run, then on th settings tab note the name of the policy selected. Then find this policy under the Policies tab and click view to see its ID value. This is the value you need to set self.policyID to.
 
