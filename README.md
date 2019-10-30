@@ -34,9 +34,9 @@ Before you can begin to run this script there's some information you need to pro
         self.URL = '<webhook URL>'
 ```
 
-The field *self.ip* is the IP address of your SecurityCenter instance. The *self.login* and *self.password* field are for the user which authenticates to SecurityCenter to run the scans. I've created a sca-automation user for auditing purposes but feel free to choose which ever user you wish.
+The field *self.ip* is the IP address of your SecurityCenter instance. The *self.login* and *self.password* field are for the user which authenticates to SecurityCenter to run the scans. I've created a "scan-automation" user within SecurityCenter for auditing purposes but feel free to choose which ever user you wish.
 
-The field *self.policyI*D is the ID for the policy which your scan is already configured to use in SecurityCenter. Find the scan you wish to run, then on th settings tab note the name of the policy selected. Then find this policy under the Policies tab and click view to see its ID value. This is the value you need to set self.policyID to.
+The field *self.policyID* is the ID for the policy which your scan is already configured to use in SecurityCenter. Find the scan you wish to run, then on the settings tab note the name of the policy selected. Then find this policy under the Policies tab and click view to see its ID value. This is the value you need to set self.policyID to.
 
 The field *self.credentialID* is the credential which the policy has been configured to use.
 
@@ -64,7 +64,20 @@ Here's a screenshot of an example webhook message sent when the scan has complet
 
 ## sc-getrunning.py
 
-A script that lists scans which have a "running" state within SecurityCenter.
+At the time of writing this it's not possible to display outside of the gui a list of running jobs within SecurityCenter. A feature request does exist but not sure on when this is likely to be implemented.
+
+Whilst that works its way through the "system", this script displays scans which have a "running" state within SecurityCenter.
+
+### Configuration
+As with the script below there are some values which need to be configured in the script in the following code section:
+
+``` python
+def main():
+    hostip = '<IP>'
+    username = '<username>'
+    password = '<password>'
+```
+The field *self.ip* is the IP address of your SecurityCenter instance. The *self.login* and *self.password* field are for the user which authenticates to SecurityCenter to run the scans. I've created a scan-automation user within SecurityCenter for auditing purposes but feel free to choose which ever user you wish.
 
 ### Usage
 
