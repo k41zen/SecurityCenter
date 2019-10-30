@@ -55,15 +55,15 @@ A script that lists scans which have a "running" state within SecurityCenter.
 
 ##
 
-#### Version Control
+### Version Control
 v1.0 - original script
 v1.1 - added day inteeligence in to sc-scan-webhook to be able modify the target text message sent based on the day of the week (DOTW)
 v1.2 - remove change made in v1.1 and added a second command line argument to take in target text passed from the command line by the scheduled cron job 
 
-#### ToDo
+### ToDo
 Modify the sc-scan-webhook script to handle scans that rollover after a longer period of time.
 
-#### License
+### License
 This project is licensed under the MIT license.
 
 ##
