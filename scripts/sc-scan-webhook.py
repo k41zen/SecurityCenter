@@ -28,7 +28,7 @@ class SC2Webhook():
 
     def run(self):
         if len (sys.argv) != 3:
-            print ("Usage: python2 sc-webhook.py [scan ID]")
+            print ("Usage: python2 sc-scan-webhook.py [scan ID]")
             sys.exit(1)
 
         scanID = sys.argv[1]
