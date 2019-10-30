@@ -76,7 +76,7 @@ A script that lists scans which have a "running" state within SecurityCenter.
 - v1.02 - remove change made in v1.1 and added a second command line argument to take in target text passed from the command line by the scheduled cron job
 
 ### ToDo
-Modify the sc-scan-webhook script to handle scans that rollover after a longer period of time.
+- Modify the sc-scan-webhook script to handle scans that rollover after a longer period of time.
 
 ### License
 This project is licensed under the MIT license.
