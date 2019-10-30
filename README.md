@@ -70,7 +70,7 @@ Here's a screenshot of an example webhook message sent when the scan has complet
 
 ## sc-getrunning.py
 
-At the time of writing this it's not possible to display outside of the gui a list of running jobs within SecurityCenter. A feature request does exist but not sure on when this is likely to be implemented.
+At the time of writing this it's not possible to display, outside of the SecurityCenter GUI, a list of running jobs within SecurityCenter. A feature request does exist but not sure on when this is likely to be implemented.
 
 Whilst that works its way through the "system", this script displays scans which have a "running" state within SecurityCenter.
 
