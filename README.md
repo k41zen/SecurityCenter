@@ -7,8 +7,6 @@ Here are a couple of scripts I've quickly knocked up (so to speak) to help me wi
 ## sc-scan-webhook
 This script allows you to start predefined scans with Tenable's Security through the API, send a webhook notification message to a Google chat room, monitor for the scan to complete successfully and then sends another webhook notification message stating the scan is complete.
 
-As different target groups were being scanned on different days, the script also starts the right scan for the day of the week. On top of that, the script sends a customised webhook notification stating which group is being scanned and also includes the scan resultID.
-
 ### Configuration
 Before you can begin to run this script there's some information you need to provide it. This is information which is specific to you and your environment and you can find this in the init section of the script as shown below: 
 
