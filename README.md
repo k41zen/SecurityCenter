@@ -49,6 +49,15 @@ Once this information has been provided you're ready to run the script. The scri
 Here's an example:
 
 	# python3 sc-scan-webhook 445 "Windows Server in both Primary data center and secondary data centers"
+
+Here's a screenshot of an example webhook message sent at the start of the scan to a Google Chat room:
+
+text: ![alt test](images/sc-scan-webhook-start-scan.png)
+
+Here's a screenshot of an example webhook message sent when the scan has completed successfully:
+
+text: ![alt test](images/sc-scan-webhook-scan-completed.png)
+
 ## sc-getrunning.py
 
 A script that lists scans which have a "running" state within SecurityCenter. 
