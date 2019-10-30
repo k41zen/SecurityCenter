@@ -1,6 +1,12 @@
 # Introduction
 
-Here are a couple of scripts I've quickly knocked up (so to speak) to help me with automating SecurityCenter scans whilst at the same time giving the right useful information to the right people.
+Here are a couple of scripts I've quickly knocked up (so to speak) to help me with building on the awesome job that Tenable's SecurityCenter does, but improve on it limitations.
+
+The first script (sc-scan-webhook) allows you to take your manual scanning schedule and fully automate those scans using cron. Why not just use the scan schedule option in SecurityCenter I hear you ask? Well, I needed the ability to be able to notify people (teams that monitor Production systems) that planned vulnerability scans are taking place and not to raise any system alerts. And, at the time of writing this, SecurityCenter can only send email notifications. I needed something to send a message to a chat room. I needed webhooks.
+
+The script sends a custom webhook chat message, starts a scan, monitors that scan and when finished and complete, sends another webhook chat message saying the scan has completed.
+
+The second script (sc-getrunning) fills another feature hole in SecurityCenter by showing you scans which have a "running" state. At the time of writing this, SecurityCenter can't do this outside of the GUI. In fact, it can't do this on the built in SecurityCenter dashboards either so you have to grant more privileges to be able to let people see this information. The plan is to integrate this script with a bot in the chat room somehow to allow people to ask the bot to show them what scanning jobs are running.
 
 ## Tested with
 This has been tested using pyTenable 0.3.27 and Tenable's SecurityCenter 5.11.x.
@@ -93,5 +99,3 @@ The field *self.ip* is the IP address of your SecurityCenter instance. The *self
 
 ### License
 This project is licensed under the MIT license.
-
-##
