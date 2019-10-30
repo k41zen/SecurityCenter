@@ -50,9 +50,13 @@ Here's an example:
 
 	# python3 sc-scan-webhook 445 "Windows Server in both Primary data center and secondary data centers"
 
-Here's a screenshot of an example webhook message sent at the start of the scan to a Google Chat room:![alt test](images/sc-scan-webhook-start-scan.png)
+Here's a screenshot of an example webhook message sent at the start of the scan to a Google Chat room:
 
-Here's a screenshot of an example webhook message sent when the scan has completed successfully:![alt test](images/sc-scan-webhook-scan-completed.png)
+![alt test](images/sc-scan-webhook-start-scan.png)
+
+Here's a screenshot of an example webhook message sent when the scan has completed successfully:
+
+![alt test](images/sc-scan-webhook-scan-completed.png)
 
 ## sc-getrunning.py
 
