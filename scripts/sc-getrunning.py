@@ -10,7 +10,7 @@ def main():
 
     for item in sc.get('scanResult').json()['response']['manageable']:
         if 'Running' in item['status']:
-            print('{id}: {name} totalChecks completedChecks'.format(**item))
+            print ('{id}: {name}'.format(**item))
 
     sc.logout()
 
