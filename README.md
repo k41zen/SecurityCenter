@@ -2,7 +2,14 @@
 
 Here are a couple of scripts I've quickly knocked up (so to speak) to help me with automating SecurityCenter scans whilst at the same time giving the right useful information to the right people.
 
-##
+## Deployment
+Both scripts utilise the TenableSC API wrapper to run as shown in the code snippet below:
+
+```python 
+	from tenable.sc import TenableSC
+```
+
+More information on this API wrapper can be found here: https://pytenable.readthedocs.io/en/stable/sc.html
 
 ## sc-scan-webhook
 This script allows you to start predefined scans with Tenable's Security through the API, send a webhook notification message to a Google chat room, monitor for the scan to complete successfully and then sends another webhook notification message stating the scan is complete.
