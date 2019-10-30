@@ -75,7 +75,7 @@ At the time of writing this it's not possible to display outside of the gui a li
 Whilst that works its way through the "system", this script displays scans which have a "running" state within SecurityCenter.
 
 ### Configuration
-As with the script below there are some values which need to be configured in the script in the following code section:
+As with *sc-scan-webhook.py* there are some values which need to be configured in the script in the following code section:
 
 ``` python
 def main():
@@ -83,7 +83,7 @@ def main():
     username = '<username>'
     password = '<password>'
 ```
-The field *self.ip* is the IP address of your SecurityCenter instance. The *self.login* and *self.password* field are for the user which authenticates to SecurityCenter to run the scans. I've created a scan-automation user within SecurityCenter for auditing purposes but feel free to choose which ever user you wish.
+The field *hostip* is the IP address of your SecurityCenter instance. The *username* and *password* field are for the user which authenticates to SecurityCenter to run the scans. I've created a scan-automation user within SecurityCenter for auditing purposes but feel free to choose which ever user you wish.
 
 ### Usage
 
