@@ -8,6 +8,7 @@ before_install:
   - sudo apt-get install python3.7
 install:
   - pip install -r requirements.txt
+  - git clone
 script:
   - python sc-scan-webhook.py <scan ID> <target text>
 after_success:
