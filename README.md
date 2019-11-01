@@ -1,5 +1,4 @@
-.. image:: https://img.shields.io/github/license/k41zen/SecurityCenter.svg
-   :target: https://github.com/k41zen/SecurityCenter
+![GitHub](https://img.shields.io/github/license/k41zen/SecurityCenter)
 
 # Introduction
 
