@@ -1,4 +1,5 @@
-![GitHub](https://img.shields.io/github/license/k41zen/SecurityCenter)
+
+![GitHub](https://img.shields.io/github/last-commit/k41zen/SecurityCenter) ![github](https://img.shields.io/github/license/k41zen/SecurityCenter) ![GitHub](https://img.shields.io/maintenance/yes/2019)
 
 # Introduction
 
