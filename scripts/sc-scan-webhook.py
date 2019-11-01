@@ -33,7 +33,7 @@ class SC2Webhook():
 
         scanID = sys.argv[1]
         if ScanID == "test":
-            exit(0)
+            exit
         targetTXT = sys.argv[2]
 
         try:
