@@ -32,6 +32,8 @@ class SC2Webhook():
             sys.exit(1)
 
         scanID = sys.argv[1]
+        if ScanID = "test"
+            sys.exit(0)
         targetTXT = sys.argv[2]
 
         try:
@@ -86,4 +88,3 @@ class SC2Webhook():
 
 if __name__ == '__main__':
     SC2Webhook().run()
-

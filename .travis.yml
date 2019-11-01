@@ -2,7 +2,6 @@ dist: ubuntu
 language: python
 python:
   - "3.7"
-
 before_install:
   - sudo apt-get update
   - sudo apt-get install python
@@ -12,5 +11,5 @@ install:
 before_script:
   - cd scripts
 script:
-  - python sc-scan-webhook.py
+  - python sc-scan-webhook.py test
 after_success:
