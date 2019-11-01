@@ -13,7 +13,7 @@ The second script (*sc-getrunning*) fills another feature hole in SecurityCenter
 ## Tested with
 This has been tested using pyTenable 0.3.27 and Tenable's SecurityCenter 5.11.x.
 
-## Introduction
+## Installation
 Once downloaded, install the dependencies needed for this script, run the following command:
 
 	pip install -r requirements.txt
