@@ -1,4 +1,4 @@
-dist: xenial
+dist: ubuntu
 language: python
 python:
   - "3.7"
@@ -8,7 +8,7 @@ before_install:
   - sudo apt-get install python3.7
 install:
   - pip install -r requirements.txt
-  - git clone
+  - git clone https://github.com/k41zen/SecurityCenter.git
 script:
   - python sc-scan-webhook.py <scan ID> <target text>
 after_success:
