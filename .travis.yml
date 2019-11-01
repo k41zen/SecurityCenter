@@ -11,5 +11,5 @@ install:
 before_script:
   - cd scripts
 script:
-  - python sc-scan-webhook.py test
+  - python3 sc-scan-webhook.py test
 after_success:
