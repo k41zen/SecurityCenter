@@ -31,9 +31,10 @@ class SC2Webhook():
             print ("Usage: python2 sc-scan-webhook.py [scan ID] 'target list to add to message text sent in webhook'")
             sys.exit(1)
 
+        if sys.argv[1]  == "test":
+            exit
+
         scanID = sys.argv[1]
-        if ScanID == "test":
-            exit(0)
         targetTXT = sys.argv[2]
 
         try:
