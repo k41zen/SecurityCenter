@@ -5,10 +5,10 @@ python:
 
 before_install:
   - sudo apt-get update
-  - sudo apt-get install python3.7
+  - sudo apt-get install python
 install:
-  - pip install -r requirements.txt
   - git clone https://github.com/k41zen/SecurityCenter.git
+  - pip install -r requirements.txt
 script:
   - python sc-scan-webhook.py <scan ID> <target text>
 after_success:
