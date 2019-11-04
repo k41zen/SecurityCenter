@@ -1,5 +1,4 @@
-
-[![Build Status](https://travis-ci.com/k41zen/SecurityCenter.svg?branch=master)](https://travis-ci.com/k41zen/SecurityCenter)![GitHub](https://img.shields.io/github/languages/code-size/k41zen/SecurityCenter)![GitHub](https://img.shields.io/github/last-commit/k41zen/SecurityCenter)![GitHub](https://img.shields.io/maintenance/yes/2019)![github](https://img.shields.io/github/license/k41zen/SecurityCenter)
+[![Build Status](https://travis-ci.com/k41zen/SecurityCenter.svg?branch=master)](https://travis-ci.com/k41zen/SecurityCenter)      ![GitHub](https://img.shields.io/github/languages/code-size/k41zen/SecurityCenter)      ![GitHub](https://img.shields.io/github/last-commit/k41zen/SecurityCenter)      ![GitHub](https://img.shields.io/maintenance/yes/2019)      ![github](https://img.shields.io/github/license/k41zen/SecurityCenter)
 
 # Introduction
 
@@ -14,8 +13,8 @@ The second script (*sc-getrunning*) fills another feature hole in SecurityCenter
 ## Tested with
 This has been tested using pyTenable 0.3.27 and Tenable's SecurityCenter 5.11.x.
 
-## Introduction
-Once downloaded, install the dependencies needed for this script, run the following command:
+## Installation
+Once downloaded, install the dependencies needed for this script by running the following command:
 
 	pip install -r requirements.txt
 
