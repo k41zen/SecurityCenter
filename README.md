@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/k41zen/SecurityCenter.svg?branch=master)](https://travis-ci.com/k41zen/SecurityCenter)      ![GitHub](https://img.shields.io/github/languages/code-size/k41zen/SecurityCenter)      ![GitHub](https://img.shields.io/github/last-commit/k41zen/SecurityCenter)      ![GitHub](https://img.shields.io/maintenance/yes/2019)      ![github](https://img.shields.io/github/license/k41zen/SecurityCenter)
+[![Build Status](https://travis-ci.com/k41zen/SecurityCenter.svg?branch=master)](https://travis-ci.com/k41zen/SecurityCenter)      [![Updates](https://pyup.io/repos/github/k41zen/SecurityCenter/shield.svg)](https://pyup.io/repos/github/k41zen/SecurityCenter/)     [![Python 3](https://pyup.io/repos/github/k41zen/SecurityCenter/python-3-shield.svg)](https://pyup.io/repos/github/k41zen/SecurityCenter/)     ![GitHub](https://img.shields.io/github/languages/code-size/k41zen/SecurityCenter)      ![GitHub](https://img.shields.io/github/last-commit/k41zen/SecurityCenter)      ![GitHub](https://img.shields.io/maintenance/yes/2019)      ![github](https://img.shields.io/github/license/k41zen/SecurityCenter)
 
 # Introduction
 
