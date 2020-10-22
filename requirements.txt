@@ -1,1 +1,1 @@
-pyTenable
+pyTenable==1.2.3
