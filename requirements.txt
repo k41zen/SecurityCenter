@@ -1,1 +1,1 @@
-pyTenable
+pyTenable==26.5.1
